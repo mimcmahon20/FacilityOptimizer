@@ -1,4 +1,9 @@
 ##FUNCTIONING MULTIPLE FACILITIES, MULTIPLE WAREHOUSES, EUCLIDEAN DISTANCE, OPTIMIZATION
+import os
+
+# Point to the location of the gurobi license file
+os.environ["GRB_LICENSE_FILE"] = "gurobi.lic"
+
 import numpy as np
 from gurobipy import Model, GRB
 
