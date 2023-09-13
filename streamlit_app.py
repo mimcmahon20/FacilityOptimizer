@@ -1,7 +1,7 @@
 ##FUNCTIONING MULTIPLE FACILITIES, MULTIPLE WAREHOUSES, EUCLIDEAN DISTANCE, OPTIMIZATION
 import numpy as np
 from gurobipy import Model, GRB
-%matplotlib tk
+
 import matplotlib.pyplot as plt
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 from matplotlib.lines import Line2D
