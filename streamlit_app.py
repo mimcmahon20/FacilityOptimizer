@@ -12,6 +12,7 @@ from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 from matplotlib.lines import Line2D
 
 
+
 #image loading/logic
 def getImage(path, zoom):
     return OffsetImage(plt.imread(path), zoom=zoom)
